@@ -4,7 +4,7 @@
 
     <groupId>com.ipiecoles.java.mdd050</groupId>
     <artifactId>ipi-mdd-050-ex</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.1-SNAPSHOT</version>
     <scm>
         <connection>scm:git:https://Yannouxt@github.com/Yannouxt/ipi-mdd-050-ex.git</connection>
       <tag>ipi-mdd-050-ex-1.1</tag>

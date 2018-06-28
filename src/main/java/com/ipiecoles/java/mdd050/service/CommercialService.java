@@ -2,7 +2,10 @@ package com.ipiecoles.java.mdd050.service;
 
 import com.ipiecoles.java.mdd050.exception.EmployeException;
 import com.ipiecoles.java.mdd050.model.Commercial;
+import com.ipiecoles.java.mdd050.model.Employe;
 import com.ipiecoles.java.mdd050.repository.CommercialRepository;
+import com.ipiecoles.java.mdd050.repository.EmployeRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +28,5 @@ public class CommercialService {
     public Commercial updateEmploye(Long id, Commercial employe) throws EmployeException {
         return commercialRepository.save(employe);
     }
-
 
 }
